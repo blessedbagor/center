@@ -130,7 +130,7 @@ export const FloatingNav = ({
               <SheetDescription></SheetDescription>
 
               <div className="mt-auto w-full border-t pt-4 mx-auto flex items-center flex-center space-x-4">
-                <Link href="/sign-in">
+                <Link href="https://igift.ph/sign-in">
                   <button className="sm:w-full flex items-center border text-lg font-medium uppercase dark:bg-white dark:hover:border-gold dark:border-transparent text-black px-4 py-2 rounded-2xl">
                     Login <ChevronRight className="ml-1" />
                   </button>
@@ -141,7 +141,7 @@ export const FloatingNav = ({
                   className="border text-lg font-medium uppercase relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-2xl"
                 >
                   <span>
-                    <Link href="/sign-up" className="flex items-center">
+                    <Link href="https://igift.ph/sign-up" className="flex items-center">
                       Get Started <ChevronRight className="ml-1" />
                     </Link>
                   </span>
