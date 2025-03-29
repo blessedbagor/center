@@ -7,6 +7,7 @@ import { CenterHeroSection } from "@/app/center-hero-section";
 export type Store = {
   id: number;
   name: string;
+  stockist: string;
   address: string;
   mobile: string;
   officeHours: string;
@@ -17,7 +18,8 @@ export type Store = {
 const stores: Store[] = [
     { 
       id: 1, 
-      name: "IGIFT HEAD OFFICE", 
+      name: "IGIFT HEAD OFFICE",
+      stockist: "Main", 
       address: "Unit 2F-9, The Galleria, Pacencia Tijam Pison Avenue, San Rafael, Mandurriao, Iloilo City", 
       mobile: "+639173051000",
       officeHours: "9:00 AM - 6:00 PM",
@@ -27,6 +29,7 @@ const stores: Store[] = [
     { 
       id: 2, 
       name: "IGIFT STA. ROSA, LAGUNA", 
+      stockist: "City Stockist",
       address: "Phase 2 Block 6 Lot 64 Lakeville Subdivision, Sinalhan, Sta. Rosa, Laguna", 
       mobile: "09636899508",
       officeHours: "9:00 AM - 6:00 PM",
@@ -35,7 +38,8 @@ const stores: Store[] = [
     },
     { 
       id: 3, 
-      name: "IGIFT BATANGAS", 
+      name: "IGIFT BATANGAS",
+      stockist: "Provincial Stockist", 
       address: "Purok 1, Brgy. Canda, Balayan, Batangas", 
       mobile: "09663340573",
       officeHours: "9:00 AM - 6:00 PM",
@@ -45,6 +49,7 @@ const stores: Store[] = [
     { 
       id: 4, 
       name: "IGIFT PONTEVEDRA, CAPIZ", 
+      stockist: "Town Stockist",
       address: "Andaya Subdivision, Brgy.Tacas, Pontevedra, Capiz", 
       mobile: "09176330179",
       officeHours: "9:00 AM - 6:00 PM",
@@ -53,7 +58,8 @@ const stores: Store[] = [
     },
     { 
       id: 5, 
-      name: "IGIFT HONGKONG", 
+      name: "IGIFT HONGKONG",
+      stockist: "International Stockist", 
       address: "Bel-Air On The Peak, Pok Fu Lam, Hongkong", 
       mobile: "+85292403546",
       officeHours: "9:00 AM - 6:00 PM",
@@ -62,7 +68,8 @@ const stores: Store[] = [
     },
     { 
       id: 6, 
-      name: "IGIFT CABIAO, NUEVA ECIJA", 
+      name: "IGIFT CABIAO, NUEVA ECIJA",
+      stockist: "Town Stockist", 
       address: "00194 Guapito Street Santa Rita Cabiao Nueva Ecija", 
       mobile: "09053266329",
       officeHours: "9:00 AM - 6:00 PM",
@@ -71,7 +78,8 @@ const stores: Store[] = [
     },
     { 
       id: 7, 
-      name: "IGIFT AKLAN", 
+      name: "IGIFT AKLAN",
+      stockist: "Provincial Stockist", 
       address: "Cabilawan, Madalag, Aklan", 
       mobile: "09634632565",
       officeHours: "9:00 AM - 6:00 PM",
@@ -80,7 +88,8 @@ const stores: Store[] = [
     },
     { 
       id: 8, 
-      name: "IGIFT LIPA, BATANGAS", 
+      name: "IGIFT LIPA, BATANGAS",
+      stockist: "City Stockist", 
       address: "P1 B2 L6 APPLE ST. AMIYA ROSA SUBD. BOLBOK, LIPA CITY, BATANGAS", 
       mobile: "09563084857",
       officeHours: "9:00 AM - 6:00 PM",
@@ -90,6 +99,7 @@ const stores: Store[] = [
     { 
       id: 9, 
       name: "IGIFT MALATE, MANILA", 
+      stockist: "Town Stockist",
       address: "2424 2F Torre Lorenzo Condominium, Taft Avenue, Brgy 727, Malate, Manila", 
       mobile: "09452647632",
       officeHours: "9:00 AM - 6:00 PM",
@@ -98,7 +108,8 @@ const stores: Store[] = [
     },
     { 
       id: 10, 
-      name: "IGIFT CATANDUANES", 
+      name: "IGIFT CATANDUANES",
+      stockist: "Town Stockist", 
       address: "Paraiso, San Miguel, Catanduanes", 
       mobile: "09467546670",
       officeHours: "9:00 AM - 6:00 PM",
@@ -107,7 +118,8 @@ const stores: Store[] = [
     },
     { 
         id: 11, 
-        name: "IGIFT UGANDA", 
+        name: "IGIFT UGANDA",
+        stockist: "Country Stockist", 
         address: "LUWUM STREET, MM PLAZA, 4TH FLOOR, R22, KAMPALA, UGANDA", 
         mobile: "+256754794746",
         officeHours: "9:00 AM - 6:00 PM",
@@ -116,7 +128,8 @@ const stores: Store[] = [
       },
       { 
         id: 12, 
-        name: "IGIFT LAGUNA", 
+        name: "IGIFT LAGUNA",
+        stockist: "Provincial Stockist", 
         address: "C/O P1 B2 L6 APPLE ST. AMIYA ROSA SUBD. BOLBOK, LIPA CITY, BATANGAS", 
         mobile: "09563084857",
         officeHours: "9:00 AM - 6:00 PM",
@@ -125,7 +138,8 @@ const stores: Store[] = [
       },
       { 
         id: 13, 
-        name: "IGIFT CAVITE", 
+        name: "IGIFT CAVITE",
+        stockist: "Provincial Stockist", 
         address: "C/O P1 B2 L6 APPLE ST. AMIYA ROSA SUBD. BOLBOK, LIPA CITY, BATANGAS", 
         mobile: "09563084857",
         officeHours: "9:00 AM - 6:00 PM",
@@ -134,7 +148,8 @@ const stores: Store[] = [
       },
       { 
         id: 14, 
-        name: "IGIFT PUERTO PRINCESA, PALAWAN", 
+        name: "IGIFT PUERTO PRINCESA, PALAWAN",
+        stockist: "Town Stockist", 
         address: "30 BM Road San Pedro, Puerto Princesa City, Palawan", 
         mobile: "09098126147",
         officeHours: "9:00 AM - 6:00 PM",
@@ -157,32 +172,7 @@ export default function CenterList() {
     </div>
     </CardContent>
     </Card>
-
-  <div className='my-6 mx-auto max-w-3xl p-4'>
-    <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">iGift Guidelines for Center Applicants</h2>
-      <ol className="space-y-6">
-      {[
-        { title: "Strategic Location", description: "Must be in high-traffic areas near banks, ATMs, drugstores, restaurants, government offices, or transport stations." },
-        { title: "Exclusive Area", description: "Only one iGift Center per town, city, or province. No competition within your designated area." },
-        { title: "Core Business", description: "Serve as a distribution hub, presentation venue, and future e-services center for iGift." },
-        { title: "Investment Needed", description: "Start-up cost $5,000 for a town, $10,000 for a city, and $25,000 for a province. This is used to buy products." },
-        { title: "Earnings & Bonuses", description: "Earn up to 43% on retail sales and receive extra income from distributor purchases in your area." },
-        { title: "Marketing Support", description: "iGift provides promotional support, but centers must also engage in local marketing." },
-        { title: "Honest Business", description: "Operate with honesty, transparency, and excellent customer service." },
-        { title: "Who Can Apply", description: "Must have enough funds, marketing skills, a great location, and a strong drive to grow the business." }
-      ].map((item, index) => (
-        <li key={index} className="flex items-start space-x-6">
-          <div className="w-4 h-4 flex items-center justify-center bg-yellow-400 font-bold rounded-full p-4">
-            {index + 1}
-          </div>
-          <p>
-            <span className="font-semibold text-lg md:text-2xl">{item.title}</span> <br />{item.description}
-          </p>
-        </li>
-      ))}
-    </ol>
-  </div>
-  <HoverBottomSection />
+    <HoverBottomSection />
     </>
   );
 }
