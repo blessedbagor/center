@@ -44,7 +44,7 @@ const NavBar = () => {
           <Sheet>
             <SheetTitle className="sr-only">Menu</SheetTitle>
             <SheetTrigger asChild>
-              <button className="p-2 rounded-md text-gray-800 dark:text-gray-200">
+              <button className="p-2 rounded-md text-yellow-400">
                 <Menu size={24} />
               </button>
             </SheetTrigger>
