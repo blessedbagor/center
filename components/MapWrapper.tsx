@@ -7,6 +7,7 @@ const DynamicMap = dynamic(() => import("./Map"), { ssr: false });
 export type Store = {
     id: number;
     name: string;
+    stockist: string;
     address: string;
     mobile: string;
     officeHours: string;
