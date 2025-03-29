@@ -8,10 +8,10 @@ export function HoverBottomSection() {
     <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="mb-4 relative z-20 space-y-8">
       <Image 
-        src="/center.svg" 
+        src="/logo.svg" 
         alt={`${APP_NAME} logo`} 
-        height={80}
-        width={320}
+        height={120}
+        width={120}
         priority={true}
       />
       </div>
