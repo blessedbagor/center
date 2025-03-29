@@ -155,7 +155,7 @@ const Map: React.FC<MapProps> = ({ center, zoom = 4, stores }) => {
                     </h3>
 
                     {/* Stockist Type */}
-                    <Badge className="bg-green-400 rounded-2xl">{store.stockist}</Badge>
+                    <Badge className="bg-yellow-300 rounded-2xl">{store.stockist}</Badge>
 
                     {/* Address */}
                     <div className="flex items-start gap-2">
