@@ -177,12 +177,22 @@ const stores: Store[] = [
     { 
       id: 15, 
       name: "IGIFT ZAMBOANGA DEL NORTE",
-      stockist: "Pickup Center", 
+      stockist: "Chartered Center", 
       address: "222 Juan Luna Street, Brgy. Antonino, Labason, Zamboanga del Norte", 
       mobile: "09353412601",
       officeHours: "9:00 AM - 6:00 PM",
       businessDays: "Monday-Saturday",
       coordinates: [8.068178477360881, 122.52155109987906] // Approximate location of Labason, Zamboanga del Norte
     },
-];
+    { 
+      id: 16, 
+      name: "IGIFT BATANGAS CITY",
+      stockist: "City Stockist", 
+      address: "Mataas na Lupa, San Pascual, Batangas",
+      mobile: "09156944780",
+      officeHours: "9:00 AM - 6:00 PM",
+      businessDays: "Monday-Saturday",
+      coordinates: [13.810437906893075, 121.01353724453055] // Approximate location of San Pascual, Batangas
+    },
+    ];
 
