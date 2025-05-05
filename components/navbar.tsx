@@ -16,7 +16,7 @@ const NavBar = () => {
     <header className="w-full dark:bg-transparent border-b-transparent mb-8">
       <div className="wrapper flex items-center justify-between py-4 px-6">
         {/* Logo Section */}
-        <Link href="/" className="flex items-center">
+        <Link href="https://igift.ph" className="flex items-center">
           <Image 
             src="/logo.svg" 
             alt={`${APP_NAME} logo`} 
@@ -51,7 +51,7 @@ const NavBar = () => {
             <SheetContent className="w-full bg-black text-white p-4">
               <div className="flex flex-col space-y-4 mt-4">
                 {navItems.map((item) => (
-                  <Link key={item.link} href={item.link} className="text-2xl uppercase font-medium text-gray-800 dark:text-gray-200 hover:text-primary">
+                  <Link key={item.link} href={item.link} className="text-2xl uppercase font-medium text-gray-200 hover:text-primary">
                     {item.name}
                   </Link>
                 ))}
